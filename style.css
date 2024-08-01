@@ -53,8 +53,9 @@
   text-align: center;
 }
 
-a:hover {
-  background: yellowgreen;
+.header .nav-link:hover {
+  background: black;
+  color: white;
 }
 
 .dropdown-menu {
@@ -164,9 +165,9 @@ a:hover {
 .footer .copyright {
     text-align: center;
 }
-.footer nav {
-    text-align: right;
-}
 .footer a {
     margin: 0 20px;
+}
+.footer .container {
+  margin-top: 35px;
 }
