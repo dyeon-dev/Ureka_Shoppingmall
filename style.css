@@ -16,9 +16,11 @@
 .article {
     width: 1200px;
     height: 200px;
-    /* border: 1px solid gray; */
+    border: 1px solid gray;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header,
@@ -31,18 +33,10 @@
 .banner-container,
 .announcement-container,
 .link-container {
-    height: 200px;
-    /* TODO width값 각각 수정 */
     width: 400px;
-    /* border: 1px solid gray; */
-}
-
-.announcement-container {
-    overflow: scroll;
 }
 
 .tab-content {
-    overflow: scroll;
     border: 1px solid lightgray;
     border-radius: 0 0 8px 8px;
 }
@@ -76,4 +70,21 @@
     width: 100%;
     height: 100%;
     border-radius: 8px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container img {
+    width: 256px;
+    border-radius: 8px;
+}
+
+.link-container-title {
+    margin: 8px 0 8px 0;
+    font-size: 18px;
+    font-weight: 500;
 }
