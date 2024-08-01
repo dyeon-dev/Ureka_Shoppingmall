@@ -14,9 +14,13 @@
 }
 
 .article {
-  width: 1200px;
-  height: 200px;
-  border: 1px solid gray;
+    width: 1200px;
+    height: 200px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header,
@@ -94,4 +98,62 @@ a:hover {
 .carousel-inner img {
   width: 1200px;
   height: 300px;
+}
+.banner-container,
+.announcement-container,
+.link-container {
+    width: 400px;
+}
+
+.tab-content {
+    border: 1px solid lightgray;
+    border-radius: 0 0 8px 8px;
+}
+
+.item-container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-title {
+    width: 240px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.announcement-img-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-container {
+    width: 120px;
+    height: 140px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container img {
+    width: 256px;
+    border-radius: 8px;
+}
+
+.link-container-title {
+    margin: 8px 0 8px 0;
+    font-size: 18px;
+    font-weight: 500;
 }
