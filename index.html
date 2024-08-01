@@ -134,28 +134,7 @@
                           tabindex="0">
                           <div class="list-group">
                             <div class="list-group list-group-flush">
-                              <button type="button" class="list-group-item list-group-item-action">
-                                <div class="popup">
-                                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                      공지사항 임시 버튼
-                                  </button>
-                                  
-                                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                      <div class="modal-dialog">
-                                      <div class="modal-content">
-                                          <div class="modal-header">
-                                          <h1 class="modal-title fs-5" id="exampleModalLabel">임시</h1>
-                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                          </div>
-                                          <div class="modal-body">
-                                          내용
-                                          </div>
-                                          <div class="modal-footer">
-                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
-                                          </div>
-                                      </div>
-                                      </div>
-                                  </div>
+                              <button type="button" class="list-group-item list-group-item-action" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <div class="item-container-row">
                                   <span class="item-title">애스크로 서비스 변경 약관을 확인하세요</span>
                                   <span class="item-day">2019-10-10</span>
@@ -219,7 +198,23 @@
                   <a href='https://www.facebook.com' target='_blank'>Facebook</a>
               </nav>
           </div>
-          
+          <div class="popup">            
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">임시</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    내용
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
       </body>
 </html>
