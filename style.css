@@ -27,7 +27,7 @@
 }
 
 .navbar-nav {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 700px;
   display: flex;
   justify-content: space-between;
@@ -49,14 +49,8 @@
   text-align: center;
 }
 
-.navbar-nav .nav-link:hover {
-  background-color: #f8f9fa;
-  color: #333;
-}
-
-.navbar-nav .nav-link.active {
-  background-color: #007bff;
-  color: #fff;
+a:hover {
+  background: yellowgreen;
 }
 
 .dropdown-menu {
